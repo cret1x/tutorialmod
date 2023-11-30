@@ -1,5 +1,8 @@
 package com.cretix.tutorialmod;
 
+import com.cretix.tutorialmod.block.ModBlocks;
+import com.cretix.tutorialmod.item.ModItemGroups;
+import com.cretix.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,9 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
