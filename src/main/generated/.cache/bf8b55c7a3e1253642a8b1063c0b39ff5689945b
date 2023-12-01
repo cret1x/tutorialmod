@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-01T19:28:49.7123929	Tutorial Mod/Model Definitions
+// 1.20.1	2023-12-01T21:05:42.6209402	Tutorial Mod/Model Definitions
 1504e7995c19ddcf6288a7fcb06858c0932ce1e0 assets\tutorialmod\models\item\ruby_door.json
 9c6e7b2abd59c5a64086be3d9bac690ba7c1f210 assets\tutorialmod\models\item\ruby_leggings_copper_trim.json
 a743381d7382b871f961ede3637b21dd7322ef0d assets\tutorialmod\models\item\tomato.json
@@ -126,8 +126,8 @@ c4fb1971fbcf884dcf3d21c40988fd0365b2541d assets\tutorialmod\models\item\ruby_boo
 28926c3209b0de80a200bb5e076fa2f060c1dc50 assets\tutorialmod\models\item\ruby_trapdoor.json
 ab328a99e65fed08119dbb5356cd6c7edf239107 assets\tutorialmod\models\item\ruby_helmet_netherite_trim.json
 943a371bcd975bced8c391fc8d27bd0f82541fb2 assets\tutorialmod\models\item\ruby_leggings_iron_trim.json
-8444238f04261c56864325fc5edb2ff814c1ea77 assets\tutorialmod\models\block\corn_crop_stage8.json
 04c7c11c68d3ad251cad98c238b2c049eee90e0b assets\tutorialmod\models\item\ruby_stairs.json
+8444238f04261c56864325fc5edb2ff814c1ea77 assets\tutorialmod\models\block\corn_crop_stage8.json
 45a6cfeb1afce99e79053ca4d18632f2e14932d4 assets\tutorialmod\models\block\tomato_crop_stage2.json
 e1bcffd5dcbfb758a3668455d04d23c6efda02cf assets\tutorialmod\models\item\sound_block.json
 44a2ab167afd58c93ea4806712969e98191e42e7 assets\tutorialmod\models\block\ruby_trapdoor_bottom.json

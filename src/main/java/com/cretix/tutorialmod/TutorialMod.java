@@ -3,7 +3,9 @@ package com.cretix.tutorialmod;
 import com.cretix.tutorialmod.block.ModBlocks;
 import com.cretix.tutorialmod.item.ModItemGroups;
 import com.cretix.tutorialmod.item.ModItems;
+import com.cretix.tutorialmod.util.ModCustomTrades;
 import com.cretix.tutorialmod.util.ModLootTableModifiers;
+import com.cretix.tutorialmod.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
@@ -22,6 +24,9 @@ public class TutorialMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModLootTableModifiers.modifyLootTables();
+		ModCustomTrades.registerCustomTrades();
+
+		ModVillagers.registerVillagers();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}

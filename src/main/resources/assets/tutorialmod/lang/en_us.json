@@ -45,6 +45,9 @@
   "block.tutorialmod.ruby_trapdoor": "Ruby Trapdoor",
 
 
+  "entity.minecraft.villager.sound_master": "Soundmaster",
+
+
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground",
   "tooltip.tutorialmod.sound_block.tooltip": "Makes a sound",
 

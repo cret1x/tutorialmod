@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-01T19:28:49.7094022	Tutorial Mod/Block Loot Tables
+// 1.20.1	2023-12-01T21:05:42.6174297	Tutorial Mod/Block Loot Tables
 865399c15f94da491a91fa8bc983868706016198 data\tutorialmod\loot_tables\blocks\ruby_wall.json
 01b515238d9fe6e695ccb6cde2add8caa23ef2d1 data\tutorialmod\loot_tables\blocks\deepslate_ruby_ore.json
 cc949d0a6d37d42537b3f6a8856eca6dfd258e66 data\tutorialmod\loot_tables\blocks\sound_block.json
@@ -8,8 +8,8 @@ cc949d0a6d37d42537b3f6a8856eca6dfd258e66 data\tutorialmod\loot_tables\blocks\sou
 e10b58ff9a7f9df85b67b7807d5ae423e7a759f8 data\tutorialmod\loot_tables\blocks\ruby_block.json
 6cbee860a058aff1471e8886d74965f5a072e318 data\tutorialmod\loot_tables\blocks\raw_ruby_block.json
 0956c0c9b4758f204296bcecca5903d06d56e687 data\tutorialmod\loot_tables\blocks\corn_crop.json
-4f767a7637e8a06ab8dc288b173877b52afc87f4 data\tutorialmod\loot_tables\blocks\ruby_button.json
 42baeb68ad66299d1b64d8d57e38f99d26306a7f data\tutorialmod\loot_tables\blocks\ruby_door.json
+4f767a7637e8a06ab8dc288b173877b52afc87f4 data\tutorialmod\loot_tables\blocks\ruby_button.json
 d335d1581e2acd1b2179f84a884643db4c61a07e data\tutorialmod\loot_tables\blocks\ruby_pressure_plate.json
 98bb13f065482402d7583c8ef078231b88832ca4 data\tutorialmod\loot_tables\blocks\ruby_slab.json
 151033a87d075f2c781260a9d2f09b838137413f data\tutorialmod\loot_tables\blocks\tomato_crop.json
