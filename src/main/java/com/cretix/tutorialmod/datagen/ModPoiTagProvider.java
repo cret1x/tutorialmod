@@ -3,8 +3,6 @@ package com.cretix.tutorialmod.datagen;
 import com.cretix.tutorialmod.TutorialMod;
 import net.minecraft.data.DataOutput;
 import net.minecraft.data.server.tag.TagProvider;
-import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.PointOfInterestTypeTags;

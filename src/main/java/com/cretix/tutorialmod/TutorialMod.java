@@ -3,6 +3,7 @@ package com.cretix.tutorialmod;
 import com.cretix.tutorialmod.block.ModBlocks;
 import com.cretix.tutorialmod.item.ModItemGroups;
 import com.cretix.tutorialmod.item.ModItems;
+import com.cretix.tutorialmod.sound.ModSounds;
 import com.cretix.tutorialmod.util.ModCustomTrades;
 import com.cretix.tutorialmod.util.ModLootTableModifiers;
 import com.cretix.tutorialmod.villager.ModVillagers;
@@ -27,6 +28,8 @@ public class TutorialMod implements ModInitializer {
 		ModCustomTrades.registerCustomTrades();
 
 		ModVillagers.registerVillagers();
+
+		ModSounds.registerSounds();
 
 		FuelRegistry.INSTANCE.add(ModItems.COAL_BRIQUETTE, 200);
 	}

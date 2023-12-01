@@ -61,5 +61,17 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_CHESTPLATE);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_LEGGINGS);
         itemModelGenerator.registerArmor((ArmorItem) ModItems.RUBY_BOOTS);
+
+        itemModelGenerator.register(ModItems.MOD_MUSIC_DISC_1, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOD_MUSIC_DISC_2, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOD_MUSIC_DISC_3, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOD_MUSIC_DISC_4, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOD_MUSIC_DISC_5, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOD_MUSIC_DISC_6, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOD_MUSIC_DISC_7, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOD_MUSIC_DISC_8, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOD_MUSIC_DISC_9, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOD_MUSIC_DISC_10, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOD_MUSIC_DISC_11, Models.GENERATED);
     }
 }

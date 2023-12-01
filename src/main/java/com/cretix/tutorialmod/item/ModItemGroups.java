@@ -56,7 +56,17 @@ public class ModItemGroups {
                 entries.add(ModBlocks.END_STONE_RUBY_ORE);
                 entries.add(ModBlocks.SOUND_BLOCK);
 
-
+                entries.add(ModItems.MOD_MUSIC_DISC_1);
+                entries.add(ModItems.MOD_MUSIC_DISC_2);
+                entries.add(ModItems.MOD_MUSIC_DISC_3);
+                entries.add(ModItems.MOD_MUSIC_DISC_4);
+                entries.add(ModItems.MOD_MUSIC_DISC_5);
+                entries.add(ModItems.MOD_MUSIC_DISC_6);
+                entries.add(ModItems.MOD_MUSIC_DISC_7);
+                entries.add(ModItems.MOD_MUSIC_DISC_8);
+                entries.add(ModItems.MOD_MUSIC_DISC_9);
+                entries.add(ModItems.MOD_MUSIC_DISC_10);
+                entries.add(ModItems.MOD_MUSIC_DISC_11);
 
             }).build()
     );

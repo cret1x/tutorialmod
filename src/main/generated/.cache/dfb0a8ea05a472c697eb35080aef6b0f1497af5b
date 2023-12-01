@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-01T21:05:42.6174297	Tutorial Mod/Recipes
+// 1.20.1	2023-12-01T22:13:57.4132217	Tutorial Mod/Recipes
 4b2199c684aa4704d218eb4cf16ea27b4f5197bb data\tutorialmod\advancements\recipes\combat\ruby_pickaxe.json
 aff92c7e80e5eb2064d7feedc1c2438bb7245f9b data\tutorialmod\advancements\recipes\building_blocks\ruby.json
 ea4de3923e81d12aa4d8f6843a100e0d2ee5fe36 data\tutorialmod\recipes\raw_ruby.json
@@ -24,8 +24,8 @@ dc3258a378cf202bce6457bdfcd9c2382e0387e8 data\tutorialmod\recipes\ruby_leggings.
 63e3206a5c0c7df84509e0f31254872ab4cef1ca data\tutorialmod\recipes\ruby_button_from_ruby.json
 68d274b6bd0a38ce27e947d3182a794f5c8dcb72 data\tutorialmod\recipes\ruby.json
 aaeb7be95f023ada0ebd9193adebafc767f287a4 data\tutorialmod\advancements\recipes\combat\ruby_shovel.json
-fca315ebd7ce85a63b61e3970ada4c8849ac38b7 data\tutorialmod\advancements\recipes\misc\raw_ruby_from_ruby.json
 8f56ebfee5b795e4554c5149b59fa1ee8a712c55 data\tutorialmod\advancements\recipes\building_blocks\ruby_wall.json
+fca315ebd7ce85a63b61e3970ada4c8849ac38b7 data\tutorialmod\advancements\recipes\misc\raw_ruby_from_ruby.json
 10e93747b210488efcc6427d53cf8ed07f02c345 data\tutorialmod\recipes\raw_ruby_block.json
 cb9794defc2b00a55dd0e9ca923f628c36b74363 data\tutorialmod\recipes\ruby_helmet.json
 a5e91c26b1dfdc85ebf1fd9665d05a57d014ff1f data\tutorialmod\advancements\recipes\misc\ruby_from_blasting_end_stone_ruby_ore.json
@@ -53,8 +53,8 @@ f8576b3e21a92155ff72a935364aadca5f73c3c0 data\tutorialmod\advancements\recipes\m
 b3a98f6dc0ba5a451a331d5af86ccd2a5b7b219e data\tutorialmod\advancements\recipes\misc\ruby_from_smelting_end_stone_ruby_ore.json
 17664245e3a1b526c165c97f41f043edec4e24f2 data\tutorialmod\recipes\ruby_fence_gate.json
 5e03eb6426ec98ef8bd8037354f10b1bb3934e88 data\tutorialmod\recipes\ruby_fence.json
-2353d36f4c78bcb708328906b03806f7ec3e91b9 data\tutorialmod\advancements\recipes\decorations\ruby_block.json
 770874710bb80e372170185fd98c3b1d5bd04353 data\tutorialmod\advancements\recipes\misc\ruby_from_smelting_ruby_ore.json
+2353d36f4c78bcb708328906b03806f7ec3e91b9 data\tutorialmod\advancements\recipes\decorations\ruby_block.json
 a1fa8dfc4c4ed1d8bbd49c0be6779d8879ea16b6 data\tutorialmod\recipes\lootbox.json
 f44a020805f68e57af1ec2cdf9c08d65a0a2493e data\tutorialmod\recipes\ruby_from_blasting_nether_ruby_ore.json
 ac3c49fa49062550e54ca1383fdf3f8cc2888deb data\tutorialmod\recipes\ruby_shovel.json

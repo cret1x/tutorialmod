@@ -4,6 +4,7 @@ import com.cretix.tutorialmod.TutorialMod;
 import com.cretix.tutorialmod.block.custom.CornCropBlock;
 import com.cretix.tutorialmod.block.custom.SoundBlock;
 import com.cretix.tutorialmod.block.custom.TomatoCropBlock;
+import com.cretix.tutorialmod.sound.ModSounds;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -36,7 +37,7 @@ public class ModBlocks {
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.END_STONE).strength(3F), UniformIntProvider.create(4, 7)));
 
     public static final Block SOUND_BLOCK = registerBlock("sound_block",
-            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(ModSounds.SOUND_BLOCK_SOUNDS)));
 
 
     public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
