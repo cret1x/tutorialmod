@@ -64,5 +64,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         offerWallRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.RUBY_WALL, ModItems.RUBY);
         offerShapelessRecipe(exporter, ModBlocks.RUBY_BUTTON, ModItems.RUBY, "ruby", 1);
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LOOTBOX, 1)
+                .pattern("L L")
+                .pattern("LRL")
+                .pattern("LLL")
+                .input('L', Items.LEATHER)
+                .input('R', ModItems.RUBY)
+                .criterion(hasItem(Items.LEATHER), conditionsFromItem(Items.LEATHER))
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(exporter);
     }
 }

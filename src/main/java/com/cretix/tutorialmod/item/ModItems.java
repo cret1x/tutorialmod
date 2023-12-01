@@ -1,6 +1,7 @@
 package com.cretix.tutorialmod.item;
 
 import com.cretix.tutorialmod.TutorialMod;
+import com.cretix.tutorialmod.item.custom.LootboxItem;
 import com.cretix.tutorialmod.item.custom.MetalDetectorItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
@@ -22,6 +23,8 @@ public class ModItems {
 
     public static final Item RUBY_STAFF = registerItem("ruby_staff",
             new Item(new FabricItemSettings().maxCount(1)));
+
+    public static final Item LOOTBOX = registerItem("lootbox", new LootboxItem(new FabricItemSettings()));
 
 
     private static Item registerItem(String name, Item item) {

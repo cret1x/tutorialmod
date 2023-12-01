@@ -21,6 +21,8 @@ public class ModItemGroups {
                 entries.add(ModItems.METAL_DETECTOR);
                 entries.add(ModItems.RUBY_STAFF);
 
+                entries.add(ModItems.LOOTBOX);
+
                 entries.add(ModBlocks.RUBY_BLOCK);
                 entries.add(ModBlocks.RAW_RUBY_BLOCK);
 

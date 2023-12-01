@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "R": {
+      "item": "tutorialmod:ruby"
+    }
+  },
+  "pattern": [
+    "L L",
+    "LRL",
+    "LLL"
+  ],
+  "result": {
+    "item": "tutorialmod:lootbox"
+  },
+  "show_notification": true
+}
