@@ -21,6 +21,17 @@ public class ModItemGroups {
                 entries.add(ModItems.METAL_DETECTOR);
                 entries.add(ModItems.RUBY_STAFF);
 
+                entries.add(ModItems.RUBY_AXE);
+                entries.add(ModItems.RUBY_PICKAXE);
+                entries.add(ModItems.RUBY_SHOVEL);
+                entries.add(ModItems.RUBY_SWORD);
+                entries.add(ModItems.RUBY_HOE);
+
+                entries.add(ModItems.RUBY_HELMET);
+                entries.add(ModItems.RUBY_CHESTPLATE);
+                entries.add(ModItems.RUBY_LEGGINGS);
+                entries.add(ModItems.RUBY_BOOTS);
+
                 entries.add(ModItems.LOOTBOX);
 
                 entries.add(ModBlocks.RUBY_BLOCK);
@@ -41,6 +52,8 @@ public class ModItemGroups {
                 entries.add(ModBlocks.NETHER_RUBY_ORE);
                 entries.add(ModBlocks.END_STONE_RUBY_ORE);
                 entries.add(ModBlocks.SOUND_BLOCK);
+
+                entries.add(ModItems.TOMATO_SEEDS);
 
             }).build()
     );

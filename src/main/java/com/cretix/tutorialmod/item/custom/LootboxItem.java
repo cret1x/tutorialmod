@@ -23,16 +23,16 @@ public class LootboxItem extends Item {
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-        int count =  user.getStackInHand(hand).getCount();
-        Optional<RegistryEntry.Reference<Item>> item = Registries.ITEM.getRandom(world.random);
-        if (item.isPresent()) {
-            user.getStackInHand(hand).setCount(count - 1);
-            user.playSound(SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, 1.0F, 1.0F);
-            user.giveItemStack(new ItemStack(item.get()));
-            return TypedActionResult.success(user.getStackInHand(hand));
-        } else {
-            return TypedActionResult.fail(user.getStackInHand(hand));
+        if (!world.isClient) {
+            int count =  user.getStackInHand(hand).getCount();
+            Optional<RegistryEntry.Reference<Item>> item = Registries.ITEM.getRandom(world.random);
+            if (item.isPresent()) {
+                user.getStackInHand(hand).setCount(count - 1);
+                user.playSound(SoundEvents.ENTITY_EXPERIENCE_ORB_PICKUP, 1.0F, 1.0F);
+                user.giveItemStack(new ItemStack(item.get()));
+            }
         }
+        return TypedActionResult.success(user.getStackInHand(hand));
     }
 
     @Override
