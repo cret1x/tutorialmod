@@ -20,6 +20,8 @@
 
 
   "item.tutorialmod.tomato_seeds": "Tomato Seeds",
+  "item.tutorialmod.corn_seeds": "Corn Seeds",
+  "item.tutorialmod.corn": "Corn",
 
   "block.tutorialmod.ruby_block": "Ruby Block",
   "block.tutorialmod.raw_ruby_block": "Raw Ruby Block",

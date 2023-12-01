@@ -1,6 +1,7 @@
 package com.cretix.tutorialmod.datagen;
 
 import com.cretix.tutorialmod.block.ModBlocks;
+import com.cretix.tutorialmod.block.custom.CornCropBlock;
 import com.cretix.tutorialmod.block.custom.TomatoCropBlock;
 import com.cretix.tutorialmod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -50,6 +51,10 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         var tomato_condition = BlockStatePropertyLootCondition.builder(ModBlocks.TOMATO_CROP).properties(StatePredicate.Builder.create()
                 .exactMatch(TomatoCropBlock.AGE, 5));
         addDrop(ModBlocks.TOMATO_CROP, cropDrops(ModBlocks.TOMATO_CROP, ModItems.TOMATO, ModItems.TOMATO_SEEDS, tomato_condition));
+
+        var corn_condition = BlockStatePropertyLootCondition.builder(ModBlocks.CORN_CROP).properties(StatePredicate.Builder.create()
+                .exactMatch(CornCropBlock.AGE, 8));
+        addDrop(ModBlocks.CORN_CROP, cropDrops(ModBlocks.CORN_CROP, ModItems.CORN, ModItems.CORN_SEEDS, corn_condition));
     }
 
     private LootTable.Builder rubyOreDrops(Block drop, Item item) {
