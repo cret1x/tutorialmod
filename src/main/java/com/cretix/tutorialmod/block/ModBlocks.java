@@ -2,6 +2,7 @@ package com.cretix.tutorialmod.block;
 
 import com.cretix.tutorialmod.TutorialMod;
 import com.cretix.tutorialmod.block.custom.CornCropBlock;
+import com.cretix.tutorialmod.block.custom.GemPolishingStationBlock;
 import com.cretix.tutorialmod.block.custom.SoundBlock;
 import com.cretix.tutorialmod.block.custom.TomatoCropBlock;
 import com.cretix.tutorialmod.sound.ModSounds;
@@ -67,6 +68,10 @@ public class ModBlocks {
 
     public static final Block CORN_CROP = Registry.register(Registries.BLOCK, new Identifier(TutorialMod.MOD_ID, "corn_crop"),
             new CornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+
+    public static final Block GEM_POLISHING_STATION = registerBlock("gem_polishing_station",
+            new GemPolishingStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

@@ -56,6 +56,8 @@ public class ModItemGroups {
                 entries.add(ModBlocks.END_STONE_RUBY_ORE);
                 entries.add(ModBlocks.SOUND_BLOCK);
 
+                entries.add(ModBlocks.GEM_POLISHING_STATION);
+
                 entries.add(ModItems.MOD_MUSIC_DISC_1);
                 entries.add(ModItems.MOD_MUSIC_DISC_2);
                 entries.add(ModItems.MOD_MUSIC_DISC_3);
